@@ -19,12 +19,12 @@ padding: 0%;
     font-size: 18px;
     
 }
-.font{
+.tittle-0{
 text-align: left;
 margin-left: -380px;
 font-size: 50px;
 margin-top: 35%;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 .menu-items li:hover{
    color: brown;
@@ -61,10 +61,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     margin: 5px;
     padding: 10px;
     font-size: 20px;
+    border-radius: 10px;
 }
 a{
-    /* text-decoration: dotted; */
+    text-decoration: dotted;
     color: black;
+    margin: 20px;
+    padding: 5px;
 }
 .section-two{
     margin-top: 10px;
@@ -78,12 +81,7 @@ a{
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 30px;
-    /* margin-left: 15px;
-    margin-top: 15px; */
-    justify-content: center;
-   position:absolute;
-   
-   
+    position:absolute;    
 }
 .card-1{
 width: 300px;
@@ -93,15 +91,16 @@ text-align: center;
 box-shadow: 8px 8px 16px gray;
 margin-left: 15px;
 border-radius: 10px;
-margin-top: 90px;
+margin-top: 80px;
 padding: 15px;
 transition: 8ms;
 color: black;
 
 }
-.card-1 :hover{
+.card-1:hover{
     border: 1px solid white;
-    margin-top: -20px;
+    margin-top: 60px;
+    background-color: bisque;
 }
 .justify{
     text-align: justify;
@@ -110,4 +109,59 @@ color: black;
 }
 .gym-icon{
     width: 50px;
+}
+.tittle-3{
+    text-align: center;
+    margin-top: 40px;
+}
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+   
+    /* margin-bottom: 1000px; */
+ 
+}
+.workout-img{
+    display: flex;
+    /* width: 650px;
+    height: 650px; */
+  
+    margin: 10px 10px 10px 10px;
+
+}
+.img-1{
+    transform:skewY(-15deg) ;
+}
+.img-2{
+    transform:skewY(-15deg) ; ;
+}
+.about-left{
+    width: 900px;
+    height: 600px
+    
+}
+.about-right{
+    width:600px;
+    height: 800px;
+    
+}
+.workout-container{
+    width: 500px;
+    height: 200px;
+    background-image: url(./Gym-practice-project-main/images/shape/Group_33094_1.png);
+    margin: auto;
+    margin-top: 45px;
+    padding: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 8px 8px 19px gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    justify-content: space-evenly;
 }
