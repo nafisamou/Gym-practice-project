@@ -1,0 +1,32 @@
+body{
+margin: 0%;
+padding: 0%;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+h1{
+text-align: left;
+margin-left: -380px;
+font-size: 50px;
+margin-top: 35%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-items li:hover{
+   color: brown;
+   cursor: pointer;
+}
