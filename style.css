@@ -19,7 +19,7 @@ padding: 0%;
     font-size: 18px;
     
 }
-h1{
+.font{
 text-align: left;
 margin-left: -380px;
 font-size: 50px;
@@ -29,4 +29,34 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .menu-items li:hover{
    color: brown;
    cursor: pointer;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100;
+    background-color: black;
+   align-items: center;
+}
+.banner-discription{
+    margin-bottom: 50px;
+}
+.banner-text{
+    color: crimson;
+    font-size: 25px;
+}
+.tittle-1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    margin: 10px;
+}
+.banner-btn{
+    background-color: red;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
